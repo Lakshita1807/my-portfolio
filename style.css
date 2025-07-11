@@ -1,0 +1,287 @@
+
+/* ===================== */
+/*  Base Body Styles  */
+/* ===================== */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f5; /* soft gray-blue */
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========================== */
+/*  Header & Navigation  */
+/* ========================== */
+header {
+    background: linear-gradient(90deg, #a2c7e5, #d3bbf5); /* muted blue to soft lavender */
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #003a63, #5b3e76); /* deep navy to plum */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(162, 199, 229, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+nav li {
+    font-size: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6a6f8a; /* soft gray-violet */
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #4f8cff;
+}
+
+/* ===================== */
+/*  Sections Styling  */
+/* ===================== */
+section {
+    padding: 2rem 1.5rem;
+    max-width: 960px;
+    margin: auto;
+}
+
+h2 {
+    color: #4f4f6f;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* ===================== */
+/*  Base Body Styles */
+/* ===================== */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f5; /* soft gray-blue */
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========================== */
+/*  Header & Navigation  */
+/* ========================== */
+header {
+    background: linear-gradient(90deg, #a2c7e5, #d3bbf5); /* muted blue to soft lavender */
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #003a63, #5b3e76); /* deep navy to plum */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(162, 199, 229, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+nav li {
+    font-size: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6a6f8a; /* soft gray-violet */
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #4f8cff;
+}
+
+/* ===================== */
+/*  Sections Styling  */
+/* ===================== */
+section {
+    padding: 2rem 1.5rem;
+    max-width: 960px;
+    margin: auto;
+}
+
+h2 {
+    color: #4f4f6f;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* ============================= */
+/* Skills List with Emojis */
+/* ============================= */
+.skills-list,
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem auto;
+    max-width: 600px;  
+}
+.error {
+  border-color: #e74c3c;
+}
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9rem;
+}
+.skills-list li,
+#skills ul li {
+    position: relative;
+    padding-left: 2.2rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(79, 140, 255, 0.07);
+}
+.skills-list li::before,
+#skills ul li::before { 
+    content: "💡";
+    position: absolute;
+    left: 0.7rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+}
+/* Standard project image styling */
+img {
+    max-width: 10em;           
+    height: 10em;              
+    border-radius: 8px;        
+    box-shadow: 0 4px 10px rgba(100, 120, 155, 0.1);
+    display: block;
+    margin: 0 auto; 
+}
+
+/* Optional: specific sizing if needed */
+.project img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+/* Styling for figure captions */
+figcaption {
+    font-size: 1rem;
+    color: #5f6a7d;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Paragraphs within project sections */
+#projects p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+.project {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(162, 199, 229, 0.12);
+    margin-bottom: 2rem;
+}
+@media (max-width: 992px) {
+  section {
+    padding: 1.5rem 1rem;
+  }
+
+  nav ul {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project img {
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .skills-list li {
+    font-size: 1rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .project img {
+    max-height: 200px;
+  }
+}
